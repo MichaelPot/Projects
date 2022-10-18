@@ -1,0 +1,1 @@
+The program looks for 0x34 and 0x32 to crash the program. The input that caused the crash is 42. 42 will cause the crash because 0x34 is the hex value for 4, and 0x32 is the hex value for 2. When the program compares 42 to the crashme string, it sees that they are equal, so it enters the if statement and crashes.
